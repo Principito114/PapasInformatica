@@ -1,5 +1,5 @@
 {
-	"name": "Sprite",
+	"name": "cliente",
 	"plugin-id": "Sprite",
 	"sid": 360092946997512,
 	"isGlobal": false,
@@ -18,7 +18,7 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 542021,
+						"imageSpriteId": 7831747,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
