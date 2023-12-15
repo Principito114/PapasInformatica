@@ -17,7 +17,8 @@
 	"uniqueId": "bfwmqius5gm",
 	"objectTypes": {
 		"items": [
-			"cliente"
+			"cliente",
+			"Sprite"
 		],
 		"subfolders": []
 	},
@@ -61,64 +62,7 @@
 			"subfolders": []
 		},
 		"icon": {
-			"items": [
-				{
-					"name": "icono-16.png",
-					"type": "image/png",
-					"sid": 319722969627723,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "icono-32.png",
-					"type": "image/png",
-					"sid": 598153033637399,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "icono-64.png",
-					"type": "image/png",
-					"sid": 371875662396264,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "icono-128.png",
-					"type": "image/png",
-					"sid": 391412036215820,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "icono-256.png",
-					"type": "image/png",
-					"sid": 905831741826276,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "icono-512.png",
-					"type": "image/png",
-					"sid": 452800368370273,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "logo-carga.png",
-					"type": "image/png",
-					"sid": 830548940247153,
-					"icon-info": {
-						"purpose": "loading-logo"
-					}
-				}
-			],
+			"items": [],
 			"subfolders": []
 		},
 		"general": {
