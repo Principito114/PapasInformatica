@@ -18,7 +18,12 @@
 	"objectTypes": {
 		"items": [
 			"cliente",
-			"Sprite"
+			"Sprite",
+			"PlacaBase",
+			"RAM",
+			"FuenteAlimentacion",
+			"TarjetaGrafica",
+			"Ventilador"
 		],
 		"subfolders": []
 	},
