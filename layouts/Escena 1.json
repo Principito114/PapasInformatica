@@ -77,10 +77,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 658,
-						"y": 620,
-						"width": 250,
-						"height": 250,
+						"x": 166,
+						"y": 246,
+						"width": 61.01639124038721,
+						"height": 61.01639124038721,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -106,10 +106,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 991,
-						"y": 453,
-						"width": 250,
-						"height": 250,
+						"x": 252,
+						"y": 252,
+						"width": 85.92438536294571,
+						"height": 85.92438536294571,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -135,10 +135,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 986,
-						"y": 687,
-						"width": 250,
-						"height": 250,
+						"x": 522,
+						"y": 240,
+						"width": 71.72865536171719,
+						"height": 71.72865536171719,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -164,10 +164,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1130,
-						"y": 170,
-						"width": 250,
-						"height": 250,
+						"x": 431,
+						"y": 248,
+						"width": 85.73214099741125,
+						"height": 85.73214099741125,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -193,10 +193,101 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1250,
-						"y": 430,
-						"width": 250,
-						"height": 250,
+						"x": 333,
+						"y": 244,
+						"width": 67.30491372449453,
+						"height": 67.30491372449453,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "BotonTrastero",
+					"properties": {
+						"type": "button",
+						"text": "Comenzar",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 9,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 36,
+						"y": 60,
+						"width": 72,
+						"height": 24,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "BotonListaObjetos",
+					"properties": {
+						"type": "button",
+						"text": "Objetos",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 10,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 685,
+						"y": 85,
+						"width": 72,
+						"height": 24,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "CajaOrdenador",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 11,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 71,
+						"y": 163,
+						"width": 121.89749792346026,
+						"height": 121.89749792346026,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

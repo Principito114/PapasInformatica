@@ -1,5 +1,93 @@
 {
 	"name": "Hoja de eventos 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "BotonTrastero",
+					"sid": 637675420577776
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "cliente",
+					"sid": 758795496287696,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite",
+					"sid": 359555600323568,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "TarjetaGrafica",
+					"sid": 189768906276436,
+					"parameters": {
+						"opacity": "20"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "FuenteAlimentacion",
+					"sid": 418252276877945,
+					"parameters": {
+						"opacity": "20"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "PlacaBase",
+					"sid": 664888380107763,
+					"parameters": {
+						"opacity": "20"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "RAM",
+					"sid": 630299473906446,
+					"parameters": {
+						"opacity": "20"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Ventilador",
+					"sid": 920403885741166,
+					"parameters": {
+						"opacity": "20"
+					}
+				}
+			],
+			"sid": 147597269631858
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "BotonListaObjetos",
+					"sid": 367227190536720
+				}
+			],
+			"actions": [],
+			"sid": 925812049935578
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 960936803383202
+		}
+	],
 	"sid": 723411050333066
 }
