@@ -18,7 +18,15 @@
 	"objectTypes": {
 		"items": [
 			"cliente",
-			"Sprite"
+			"Sprite",
+			"Tienda",
+			"BandasNegras",
+			"Cliente2",
+			"Dependiente",
+			"Cliente1",
+			"Cliente3",
+			"Bocadillo",
+			"Trastienda"
 		],
 		"subfolders": []
 	},
