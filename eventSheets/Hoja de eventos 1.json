@@ -1,5 +1,207 @@
 {
 	"name": "Hoja de eventos 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 706889958553440,
+					"parameters": {
+						"first-value": "Cliente2.Bala.DistanceTravelled",
+						"comparison": 5,
+						"second-value": "700"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-acceleration",
+					"objectClass": "Cliente2",
+					"sid": 284386036458879,
+					"behaviorType": "Bala",
+					"parameters": {
+						"acceleration": "1"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Cliente2",
+					"sid": 244399555818090,
+					"behaviorType": "Bala",
+					"parameters": {
+						"speed": "0"
+					}
+				}
+			],
+			"sid": 321248134485185
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 891169675706940,
+					"parameters": {
+						"first-value": "Cliente2.Bala.DistanceTravelled",
+						"comparison": 5,
+						"second-value": "700"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-acceleration",
+					"objectClass": "Cliente1",
+					"sid": 422436798790808,
+					"behaviorType": "Bala",
+					"parameters": {
+						"acceleration": "1"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Cliente1",
+					"sid": 176999283499149,
+					"behaviorType": "Bala",
+					"parameters": {
+						"speed": "0"
+					}
+				}
+			],
+			"sid": 792442704437413
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 390696670701186,
+					"parameters": {
+						"first-value": "Cliente2.Bala.DistanceTravelled",
+						"comparison": 5,
+						"second-value": "700"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-acceleration",
+					"objectClass": "Cliente3",
+					"sid": 191167470038821,
+					"behaviorType": "Bala",
+					"parameters": {
+						"acceleration": "1"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Cliente3",
+					"sid": 296608292501292,
+					"behaviorType": "Bala",
+					"parameters": {
+						"speed": "0"
+					}
+				}
+			],
+			"sid": 506562350484938
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drag-start",
+					"objectClass": "Cliente2",
+					"sid": 440899518572683,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 565174461147979,
+					"parameters": {
+						"layout": "\"Escena 2\""
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Cliente2",
+					"sid": 353383692729243,
+					"parameters": {
+						"x": "-81",
+						"y": "397"
+					}
+				}
+			],
+			"sid": 582094853645143
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drag-start",
+					"objectClass": "Cliente1",
+					"sid": 658081999610195,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 798844655884623,
+					"parameters": {
+						"layout": "\"Escena 2\""
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Cliente1",
+					"sid": 226626366360129,
+					"parameters": {
+						"x": "-189",
+						"y": "283"
+					}
+				}
+			],
+			"sid": 857426460552777
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drag-start",
+					"objectClass": "Cliente3",
+					"sid": 587998308692592,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 353053018530790,
+					"parameters": {
+						"layout": "\"Escena 2\""
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Cliente3",
+					"sid": 311531167894661,
+					"parameters": {
+						"x": "-294",
+						"y": "177"
+					}
+				}
+			],
+			"sid": 469164648836266
+		}
+	],
 	"sid": 723411050333066
 }
