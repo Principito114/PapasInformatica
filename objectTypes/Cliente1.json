@@ -4,7 +4,18 @@
 	"sid": 268510613413635,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 201445127224786
+		},
+		{
+			"behaviorId": "Bullet",
+			"name": "Bala",
+			"sid": 349953738789773
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
