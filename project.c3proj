@@ -12,45 +12,13 @@
 			"name": "Sprite",
 			"author": "Scirra",
 			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Bullet",
-			"name": "Bala",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "DragnDrop",
-			"name": "Arrastrar y soltar",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "scrollto",
-			"name": "Desplazar hasta",
-			"author": "Scirra",
-			"bundled": false
 		}
 	],
 	"uniqueId": "bfwmqius5gm",
 	"objectTypes": {
 		"items": [
-<<<<<<< Updated upstream
 			"cliente",
 			"Sprite"
-=======
-			"Tienda",
-			"BandasNegras",
-			"Cliente2",
-			"Dependiente",
-			"Cliente1",
-			"Cliente3",
-			"Bocadillo",
-			"Trastienda"
->>>>>>> Stashed changes
 		],
 		"subfolders": []
 	},
@@ -62,15 +30,13 @@
 	},
 	"layouts": {
 		"items": [
-			"Escena 1",
-			"Escena 2"
+			"Escena 1"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Hoja de eventos 1",
-			"Hoja de eventos 2"
+			"Hoja de eventos 1"
 		],
 		"subfolders": []
 	},
