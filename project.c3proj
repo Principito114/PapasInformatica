@@ -8,6 +8,13 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Button",
+			"name": "Botón",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
@@ -19,14 +26,13 @@
 		"items": [
 			"cliente",
 			"Sprite",
-			"Tienda",
-			"BandasNegras",
-			"Cliente2",
-			"Dependiente",
-			"Cliente1",
-			"Cliente3",
-			"Bocadillo",
-			"Trastienda",
+			"PlacaBase",
+			"RAM",
+			"FuenteAlimentacion",
+			"TarjetaGrafica",
+			"Ventilador",
+			"BotonTrastero",
+			"BotonListaObjetos",
 			"CajaOrdenador"
 		],
 		"subfolders": []

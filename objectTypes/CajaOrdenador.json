@@ -1,7 +1,7 @@
 {
 	"name": "CajaOrdenador",
 	"plugin-id": "Sprite",
-	"sid": 955664450746554,
+	"sid": 157787365119196,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,13 +18,13 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2883902,
+						"imageSpriteId": 6290849,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 137523699029565,
+				"sid": 741241320401142,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
