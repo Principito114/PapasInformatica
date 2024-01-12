@@ -75,7 +75,19 @@
 					},
 					"uid": 9,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Bala": {
+							"properties": {
+								"speed": 100,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
 					"world": {
 						"x": -241,
 						"y": 190,
@@ -104,7 +116,19 @@
 					},
 					"uid": 8,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Bala": {
+							"properties": {
+								"speed": 100,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
 					"world": {
 						"x": -161,
 						"y": 270,
@@ -184,7 +208,7 @@
 					"world": {
 						"x": -91,
 						"y": 357,
-						"width": -120.04788320144229,
+						"width": -120.04788320144227,
 						"height": 185.8935594854785,
 						"originX": 0.5,
 						"originY": 0.5,
