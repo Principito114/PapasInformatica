@@ -36,35 +36,6 @@
 					}
 				},
 				{
-					"type": "Trastienda",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 11,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 395,
-						"y": 739,
-						"width": 403.8891729826433,
-						"height": 420.10319427782883,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Tienda",
 					"properties": {
 						"initially-visible": true,
@@ -77,9 +48,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 427.72,
-						"y": 244,
-						"width": -850.314725260148,
+						"x": 430,
+						"y": 239,
+						"width": -850.3147252601478,
 						"height": 480.1177435264209,
 						"originX": 0.5,
 						"originY": 0.5,
