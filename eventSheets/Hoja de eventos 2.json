@@ -6,7 +6,7 @@
 			"conditions": [
 				{
 					"id": "on-drag-start",
-					"objectClass": "Bocadillo",
+					"objectClass": "Cartel3",
 					"sid": 399964515076059,
 					"behaviorType": "ArrastrarYSoltar"
 				}

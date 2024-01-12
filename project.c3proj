@@ -87,7 +87,10 @@
 			"TextoDiscoDuro",
 			"DiscoDuro",
 			"DiscoDuro2",
-			"Sprite"
+			"Sprite",
+			"Cartel2",
+			"Cartel3",
+			"Sprite2"
 		],
 		"subfolders": []
 	},

@@ -1,0 +1,70 @@
+{
+	"name": "Cartel3",
+	"plugin-id": "Sprite",
+	"sid": 988911997288117,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 337047416463403
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 812,
+						"height": 627,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3267393,
+						"collisionPoly": {
+							"points": [
+								0.8842364532019704,
+								0.03668261562998405,
+								0.9519704433497537,
+								0.049441786283891544,
+								0.9778325123152709,
+								0.15311004784688995,
+								0.9901477832512315,
+								0.7097288676236044,
+								0.9741379310344828,
+								0.8165869218500797,
+								0.8817733990147784,
+								1,
+								0.1330049261083744,
+								1,
+								0.02586206896551724,
+								0.7926634768740032,
+								0,
+								0.5629984051036683,
+								0,
+								0.19936204146730463,
+								0.04064039408866995,
+								0.06539074960127592
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 998543303708040,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
