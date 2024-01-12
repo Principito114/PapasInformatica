@@ -1,0 +1,61 @@
+{
+	"name": "Tienda",
+	"plugin-id": "Sprite",
+	"sid": 403671956332355,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "scrollto",
+			"name": "DesplazarHasta",
+			"sid": 998319792121778
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 792,
+						"height": 793,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1093326,
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Punto imagen 1",
+								"x": 0.31186868686868685,
+								"y": 0.8411097099621689
+							},
+							{
+								"name": "Punto imagen 2",
+								"x": 0.4583333333333333,
+								"y": 0.6746532156368222
+							},
+							{
+								"name": "Punto imagen 3",
+								"x": 0.5492424242424242,
+								"y": 0.5132408575031526
+							}
+						],
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 857561267861675,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
