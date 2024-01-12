@@ -1,0 +1,56 @@
+{
+	"name": "Torre",
+	"plugin-id": "Sprite",
+	"sid": 513635987265927,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 800,
+						"height": 800,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3465782,
+						"collisionPoly": {
+							"points": [
+								0.40625,
+								0.025,
+								0.72125,
+								0.0975,
+								0.78,
+								0.9075,
+								0.75375,
+								0.9425,
+								0.41,
+								0.97375,
+								0.2,
+								0.92875,
+								0.2125,
+								0.32125
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 421373690692637,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"name": "BocadilloObjetos",
+	"plugin-id": "Sprite",
+	"sid": 364640411670243,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 945994538372945
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1028,
+						"height": 678,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1918430,
+						"collisionPoly": {
+							"points": [
+								0.02529182879377432,
+								0.06489675516224189,
+								0.9299610894941635,
+								0.06489675516224189,
+								0.9727626459143969,
+								0.9410029498525073,
+								0.02529182879377432,
+								0.8289085545722714
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 732393320515919,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
