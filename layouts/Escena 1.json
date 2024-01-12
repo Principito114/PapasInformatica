@@ -77,9 +77,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1153,
-						"y": 496,
-						"width": 98.89222591456931,
+						"x": -241,
+						"y": 190,
+						"width": -95.14777408543068,
 						"height": 183.41754249530288,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -106,9 +106,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1052,
-						"y": 353,
-						"width": 108.6717059296411,
+						"x": -161,
+						"y": 270,
+						"width": -113.7882940703589,
 						"height": 177.04648741168802,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -135,9 +135,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 964,
-						"y": 244,
-						"width": 117.6231257542971,
+						"x": 820,
+						"y": 233,
+						"width": -107.7768742457029,
 						"height": 110.47640418947906,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -162,11 +162,29 @@
 					},
 					"uid": 6,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Bala": {
+							"properties": {
+								"speed": 100,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						},
+						"ArrastrarYSoltar": {
+							"properties": {
+								"axes": "both",
+								"enabled": true
+							}
+						}
+					},
 					"world": {
-						"x": 930,
-						"y": 411,
-						"width": 106.3321167985577,
+						"x": -91,
+						"y": 357,
+						"width": -120.04788320144229,
 						"height": 185.8935594854785,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -178,35 +196,6 @@
 						],
 						"angle": 0,
 						"zElevation": 2
-					}
-				},
-				{
-					"type": "Bocadillo",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 10,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1024,
-						"y": 134,
-						"width": 242.88373141429588,
-						"height": 158.0014635085822,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 3
 					}
 				}
 			],

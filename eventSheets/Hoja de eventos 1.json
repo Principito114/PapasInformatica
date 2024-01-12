@@ -1,5 +1,33 @@
 {
 	"name": "Hoja de eventos 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 544200541458439,
+					"parameters": {
+						"first-value": "Cliente2.Bala.DistanceTravelled",
+						"comparison": 5,
+						"second-value": "700"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-speed",
+					"objectClass": "Cliente2",
+					"sid": 260636381332042,
+					"behaviorType": "Bala",
+					"parameters": {
+						"speed": "0"
+					}
+				}
+			],
+			"sid": 714386932866229
+		}
+	],
 	"sid": 723411050333066
 }
