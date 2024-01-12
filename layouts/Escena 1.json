@@ -7,64 +7,6 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "cliente",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 2,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1115,
-						"y": 477,
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 3,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1080,
-						"y": 232,
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "BandasNegras",
 					"properties": {
 						"initially-visible": true,
@@ -108,8 +50,8 @@
 					"world": {
 						"x": 391,
 						"y": 770,
-						"width": 478.88917298264323,
-						"height": 482.1031942778288,
+						"width": 478.8891729826433,
+						"height": 482.10319427782883,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -137,7 +79,7 @@
 					"world": {
 						"x": 396,
 						"y": 240,
-						"width": 480.2452747398521,
+						"width": 480.24527473985205,
 						"height": 480.1177435264209,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -254,7 +196,7 @@
 						"x": 339,
 						"y": 312,
 						"width": 106.3321167985577,
-						"height": 185.89355948547848,
+						"height": 185.8935594854785,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
