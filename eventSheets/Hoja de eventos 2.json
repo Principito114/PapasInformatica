@@ -22,6 +22,67 @@
 				}
 			],
 			"sid": 286648361191553
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "ListaObjetos",
+					"sid": 423521192562684
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "BocadilloObjetos",
+					"sid": 554170799641667,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "FuenteA2",
+					"sid": 819628076637685,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Grafica2",
+					"sid": 727883428255637,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "PlacaBase2",
+					"sid": 936903458150465,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "RAM2",
+					"sid": 157770485585613,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Ventilador2",
+					"sid": 158811921190321,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 811077228124317
 		}
 	],
 	"sid": 305608737578047
