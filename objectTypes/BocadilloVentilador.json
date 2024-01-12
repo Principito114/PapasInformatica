@@ -1,14 +1,14 @@
 {
-	"name": "RAM2",
+	"name": "BocadilloVentilador",
 	"plugin-id": "Sprite",
-	"sid": 770139586718432,
+	"sid": 470406353758290,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "DragnDrop",
 			"name": "ArrastrarYSoltar",
-			"sid": 728246993524658
+			"sid": 752974692320024
 		}
 	],
 	"effectTypes": [],
@@ -17,26 +17,24 @@
 			{
 				"frames": [
 					{
-						"width": 398,
-						"height": 425,
+						"width": 1028,
+						"height": 678,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6868039,
+						"imageSpriteId": 5665522,
 						"collisionPoly": {
 							"points": [
-								0.9824120603015075,
-								0.2541176470588235,
-								0.9597989949748744,
-								0.4211764705882353,
-								0.0829145728643216,
-								0.7929411764705883,
-								0.01256281407035176,
-								0.4894117647058824,
-								0.0678391959798995,
-								0.4423529411764706
+								0.02529182879377432,
+								0.06489675516224189,
+								0.9299610894941635,
+								0.06489675516224189,
+								0.9727626459143969,
+								0.9410029498525073,
+								0.02529182879377432,
+								0.8289085545722714
 							]
 						},
 						"useCollisionPoly": true,
@@ -44,7 +42,7 @@
 						"tag": ""
 					}
 				],
-				"sid": 168748874402576,
+				"sid": 612546480222167,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

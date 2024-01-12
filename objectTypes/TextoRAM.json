@@ -1,0 +1,15 @@
+{
+	"name": "TextoRAM",
+	"plugin-id": "Text",
+	"sid": 913496698875708,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Anchor",
+			"name": "Ancla",
+			"sid": 534046010668346
+		}
+	],
+	"effectTypes": []
+}

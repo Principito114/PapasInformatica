@@ -83,6 +83,53 @@
 				}
 			],
 			"sid": 811077228124317
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "FuenteA2",
+					"sid": 451141959451529,
+					"parameters": {
+						"object": "FuenteA"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "FuenteA2",
+					"sid": 762459893105871,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "FuenteA",
+					"sid": 408864360244119,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "BocadilloFuente",
+					"sid": 930525315663980,
+					"parameters": {
+						"x": "515",
+						"y": "266"
+					}
+				}
+			],
+			"sid": 290016239240891
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 880419219167165
 		}
 	],
 	"sid": 305608737578047

@@ -21,6 +21,20 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Texto",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Anchor",
+			"name": "Ancla",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Bullet",
 			"name": "Bala",
@@ -58,7 +72,21 @@
 			"FuenteA2",
 			"Ventilador2",
 			"RAM2",
-			"PlacaBase2"
+			"PlacaBase2",
+			"BocadilloFuente",
+			"BocadilloGrafica",
+			"BocadilloVentilador",
+			"BocadilloRAM",
+			"BocadilloBase",
+			"TextoRAM",
+			"TextoBase",
+			"TextoFuente",
+			"TextoGrafica",
+			"TextoVentilador",
+			"BocadilloDiscoDuro",
+			"TextoDiscoDuro",
+			"DiscoDuro",
+			"DiscoDuro2"
 		],
 		"subfolders": []
 	},
