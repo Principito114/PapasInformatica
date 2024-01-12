@@ -80,6 +80,68 @@
 					"parameters": {
 						"visibility": "visible"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "DiscoDuro2",
+					"sid": 563527155809160,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "BocadilloBase",
+					"sid": 936646658642349,
+					"parameters": {
+						"x": "276",
+						"y": "808"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "BocadilloDiscoDuro",
+					"sid": 487014985363332,
+					"parameters": {
+						"x": "1189",
+						"y": "585"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "BocadilloFuente",
+					"sid": 845674390083223,
+					"parameters": {
+						"x": "700",
+						"y": "811"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "BocadilloGrafica",
+					"sid": 916303513828932,
+					"parameters": {
+						"x": "1180",
+						"y": "285"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "BocadilloRAM",
+					"sid": 824251331441483,
+					"parameters": {
+						"x": "728",
+						"y": "597"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "BocadilloVentilador",
+					"sid": 375828542881731,
+					"parameters": {
+						"x": "308",
+						"y": "619"
+					}
 				}
 			],
 			"sid": 811077228124317
@@ -114,12 +176,83 @@
 					}
 				},
 				{
+					"id": "pin-to-object-properties",
+					"objectClass": "TextoFuente",
+					"sid": 995834928815625,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "BocadilloFuente",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "scale",
+						"height-type": "scale",
+						"z": false
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "BocadilloFuente",
+					"sid": 510384230410024,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
 					"id": "set-position",
 					"objectClass": "BocadilloFuente",
-					"sid": 930525315663980,
+					"sid": 473730762688815,
 					"parameters": {
-						"x": "515",
-						"y": "266"
+						"x": "432",
+						"y": "181"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "BocadilloObjetos",
+					"sid": 388652283403146,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "DiscoDuro2",
+					"sid": 503544269978100,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Grafica2",
+					"sid": 993787175870532,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "PlacaBase2",
+					"sid": 685837722846689,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "RAM2",
+					"sid": 381633487900658,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Ventilador2",
+					"sid": 443977959790173,
+					"parameters": {
+						"visibility": "invisible"
 					}
 				}
 			],
@@ -127,9 +260,563 @@
 		},
 		{
 			"eventType": "block",
-			"conditions": [],
-			"actions": [],
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "DiscoDuro2",
+					"sid": 832517209478545,
+					"parameters": {
+						"object": "DiscoDuro"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "DiscoDuro",
+					"sid": 943022686939373,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "DiscoDuro2",
+					"sid": 256765644489631,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "TextoDiscoDuro",
+					"sid": 735168905083959,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "BocadilloDiscoDuro",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "scale",
+						"height-type": "scale",
+						"z": false
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "BocadilloFuente",
+					"sid": 728921236532111,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "BocadilloDiscoDuro",
+					"sid": 198183016900233,
+					"parameters": {
+						"x": "432",
+						"y": "181"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "BocadilloObjetos",
+					"sid": 311722968650084,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "FuenteA2",
+					"sid": 754403727441229,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Grafica2",
+					"sid": 560206639580798,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "PlacaBase2",
+					"sid": 824978948052291,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "RAM2",
+					"sid": 973694333680474,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Ventilador2",
+					"sid": 427171421231292,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
 			"sid": 880419219167165
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Grafica2",
+					"sid": 201929159596894,
+					"parameters": {
+						"object": "Grafica"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Grafica",
+					"sid": 813378698512209,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Grafica2",
+					"sid": 792225033971484,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "TextoGrafica",
+					"sid": 868476371911965,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "BocadilloGrafica",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "scale",
+						"height-type": "scale",
+						"z": false
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "BocadilloFuente",
+					"sid": 802251671240063,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "BocadilloGrafica",
+					"sid": 308877743964528,
+					"parameters": {
+						"x": "432",
+						"y": "181"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "BocadilloObjetos",
+					"sid": 942525669888469,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "FuenteA2",
+					"sid": 940494556622347,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "DiscoDuro2",
+					"sid": 144097330150319,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "PlacaBase2",
+					"sid": 843339439216071,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "RAM2",
+					"sid": 978142251417927,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Ventilador2",
+					"sid": 421927314501863,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 983803188614606
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "PlacaBase2",
+					"sid": 915954089946613,
+					"parameters": {
+						"object": "PlacaBase"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "PlacaBase",
+					"sid": 537748569509544,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "PlacaBase2",
+					"sid": 684834364811457,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "TextoBase",
+					"sid": 803716629686946,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "BocadilloBase",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "scale",
+						"height-type": "scale",
+						"z": false
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "BocadilloFuente",
+					"sid": 220802332144482,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "BocadilloBase",
+					"sid": 347427954571588,
+					"parameters": {
+						"x": "432",
+						"y": "181"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "BocadilloObjetos",
+					"sid": 546885992871281,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "FuenteA2",
+					"sid": 521299600925792,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "DiscoDuro2",
+					"sid": 272354018413157,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Grafica2",
+					"sid": 828621197016114,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "RAM2",
+					"sid": 550691015745539,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Ventilador2",
+					"sid": 951652182582699,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 697425799957553
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "RAM2",
+					"sid": 801359854916444,
+					"parameters": {
+						"object": "RAM"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "RAM",
+					"sid": 150362491117236,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "RAM2",
+					"sid": 984207344919931,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "TextoRAM",
+					"sid": 810491049088610,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "BocadilloRAM",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "scale",
+						"height-type": "scale",
+						"z": false
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "BocadilloFuente",
+					"sid": 886882675774613,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "BocadilloRAM",
+					"sid": 801606788497295,
+					"parameters": {
+						"x": "432",
+						"y": "181"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "BocadilloObjetos",
+					"sid": 715515097638711,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "FuenteA2",
+					"sid": 530919058095408,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "DiscoDuro2",
+					"sid": 853493095392751,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Grafica2",
+					"sid": 205245281143737,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "PlacaBase2",
+					"sid": 139785697165553,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Ventilador2",
+					"sid": 317656766716381,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 375310211170692
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Ventilador2",
+					"sid": 322279395324892,
+					"parameters": {
+						"object": "Ventilador"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Ventilador",
+					"sid": 391983040928652,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Ventilador2",
+					"sid": 975324738614451,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "TextoVentilador",
+					"sid": 484115518163061,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "BocadilloVentilador",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "scale",
+						"height-type": "scale",
+						"z": false
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "BocadilloFuente",
+					"sid": 817895448182997,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "BocadilloVentilador",
+					"sid": 827573632939094,
+					"parameters": {
+						"x": "432",
+						"y": "181"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "BocadilloObjetos",
+					"sid": 797756336514080,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "FuenteA2",
+					"sid": 109261227448593,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "DiscoDuro2",
+					"sid": 527027230228108,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "PlacaBase2",
+					"sid": 124018752784626,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Grafica2",
+					"sid": 862625688539233,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "RAM2",
+					"sid": 550778884041841,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 824224151530900
 		}
 	],
 	"sid": 305608737578047

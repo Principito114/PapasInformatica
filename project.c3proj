@@ -29,13 +29,6 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Anchor",
-			"name": "Ancla",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "Bullet",
 			"name": "Bala",
 			"author": "Scirra",
@@ -45,6 +38,13 @@
 			"type": "behavior",
 			"id": "DragnDrop",
 			"name": "Arrastrar y soltar",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pegado",
 			"author": "Scirra",
 			"bundled": false
 		}

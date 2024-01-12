@@ -280,14 +280,7 @@
 					},
 					"uid": 17,
 					"instanceVariables": {},
-					"behaviors": {
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": true
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
 						"x": 713,
 						"y": 128,
@@ -496,19 +489,12 @@
 					},
 					"uid": 25,
 					"instanceVariables": {},
-					"behaviors": {
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": true
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
-						"x": 349,
-						"y": 600,
-						"width": 379.10373141429585,
-						"height": 188.3814635085822,
+						"x": 347,
+						"y": 603,
+						"width": 442.2211965607037,
+						"height": 219.7453343227112,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -532,14 +518,7 @@
 					},
 					"uid": 27,
 					"instanceVariables": {},
-					"behaviors": {
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": true
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
 						"x": 271.21999999999997,
 						"y": 831.42,
@@ -568,14 +547,7 @@
 					},
 					"uid": 26,
 					"instanceVariables": {},
-					"behaviors": {
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": true
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
 						"x": 781.13,
 						"y": 565.39,
@@ -604,14 +576,7 @@
 					},
 					"uid": 23,
 					"instanceVariables": {},
-					"behaviors": {
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": true
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
 						"x": 765.97,
 						"y": 813.63,
@@ -640,14 +605,7 @@
 					},
 					"uid": 24,
 					"instanceVariables": {},
-					"behaviors": {
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": true
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
 						"x": 1102,
 						"y": 337.54,
@@ -676,19 +634,12 @@
 					},
 					"uid": 33,
 					"instanceVariables": {},
-					"behaviors": {
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": true
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
-						"x": 1215,
-						"y": 607,
-						"width": 379.10373141429585,
-						"height": 188.3814635085822,
+						"x": 1214.02,
+						"y": 627.58,
+						"width": 377.14373141429587,
+						"height": 229.54146350858218,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -704,7 +655,7 @@
 				{
 					"type": "DiscoDuro2",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -712,7 +663,14 @@
 					},
 					"uid": 36,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"ArrastrarYSoltar": {
+							"properties": {
+								"axes": "both",
+								"enabled": true
+							}
+						}
+					},
 					"world": {
 						"x": 774,
 						"y": 144,
@@ -756,7 +714,13 @@
 					},
 					"uid": 32,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Pegado": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 182.2,
 						"y": 529.59,
@@ -800,7 +764,13 @@
 					},
 					"uid": 31,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Pegado": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 946,
 						"y": 271,
@@ -844,7 +814,13 @@
 					},
 					"uid": 30,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Pegado": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 598,
 						"y": 728,
@@ -888,7 +864,13 @@
 					},
 					"uid": 29,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Pegado": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 90,
 						"y": 766,
@@ -933,19 +915,15 @@
 					"uid": 28,
 					"instanceVariables": {},
 					"behaviors": {
-						"Ancla": {
+						"Pegado": {
 							"properties": {
-								"left-edge": "window-left",
-								"top-edge": "window-top",
-								"right-edge": "none",
-								"bottom-edge": "none",
-								"enabled": true
+								"destroy": false
 							}
 						}
 					},
 					"world": {
-						"x": 619,
-						"y": 505,
+						"x": 617,
+						"y": 501,
 						"width": 317.3572575096617,
 						"height": 147.37638870105928,
 						"originX": 0,
@@ -980,8 +958,8 @@
 						}
 					},
 					"world": {
-						"x": 459,
-						"y": 67,
+						"x": 168,
+						"y": 63,
 						"width": 126.83772193747222,
 						"height": 84.66205975107388,
 						"originX": 0.5,
@@ -999,7 +977,7 @@
 				{
 					"type": "TextoDiscoDuro",
 					"properties": {
-						"text": "La RAM almacena temporalmente datos y programas que están siendo utilizados activamente por la CPU. Permite un acceso rápido a la información, pero se borra cuando se apaga la computadora.",
+						"text": "Los dispositivos de almacenamiento, como discos duros (HDD) y unidades de estado sólido (SSD), almacenan datos permanentemente. El HDD utiliza discos magnéticos giratorios, mientras que el SSD utiliza memoria flash para un acceso más rápido.",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 12,
@@ -1023,13 +1001,9 @@
 					"uid": 34,
 					"instanceVariables": {},
 					"behaviors": {
-						"Ancla": {
+						"Pegado": {
 							"properties": {
-								"left-edge": "window-left",
-								"top-edge": "window-top",
-								"right-edge": "none",
-								"bottom-edge": "none",
-								"enabled": true
+								"destroy": false
 							}
 						}
 					},

@@ -4,7 +4,13 @@
 	"sid": 984299359116188,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 584968876743191
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
