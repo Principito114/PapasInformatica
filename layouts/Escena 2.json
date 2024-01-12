@@ -46,10 +46,17 @@
 					},
 					"uid": 3,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"ArrastrarYSoltar": {
+							"properties": {
+								"axes": "both",
+								"enabled": true
+							}
+						}
+					},
 					"world": {
-						"x": 367,
-						"y": -66,
+						"x": 447,
+						"y": 89,
 						"width": 242.88373141429588,
 						"height": 158.0014635085822,
 						"originX": 0.5,

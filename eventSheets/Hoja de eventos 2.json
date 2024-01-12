@@ -1,5 +1,28 @@
 {
 	"name": "Hoja de eventos 2",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drag-start",
+					"objectClass": "Bocadillo",
+					"sid": 399964515076059,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 917352920859950,
+					"parameters": {
+						"which": "previous"
+					}
+				}
+			],
+			"sid": 286648361191553
+		}
+	],
 	"sid": 305608737578047
 }

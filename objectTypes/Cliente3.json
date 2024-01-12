@@ -9,6 +9,11 @@
 			"behaviorId": "Bullet",
 			"name": "Bala",
 			"sid": 189374965656515
+		},
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 293886680830883
 		}
 	],
 	"effectTypes": [],

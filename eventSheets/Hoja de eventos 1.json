@@ -81,6 +81,72 @@
 				}
 			],
 			"sid": 804023817422726
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drag-start",
+					"objectClass": "Cliente2",
+					"sid": 851860702835361,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 361249488490348,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 905389246834633
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drag-start",
+					"objectClass": "Cliente1",
+					"sid": 775053903166912,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 907319922065142,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 866523754502153
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drag-start",
+					"objectClass": "Cliente3",
+					"sid": 627523652029824,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 327006467828565,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 538208440350562
 		}
 	],
 	"sid": 723411050333066
