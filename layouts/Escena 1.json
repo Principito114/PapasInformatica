@@ -7,11 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-<<<<<<< Updated upstream
 					"type": "cliente",
-=======
-					"type": "BandasNegras",
->>>>>>> Stashed changes
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -19,25 +15,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-<<<<<<< Updated upstream
 					"uid": 2,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 660,
-						"y": 304,
+						"x": 1115,
+						"y": 477,
 						"width": 250,
 						"height": 250,
-=======
-					"uid": 5,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 419,
-						"y": 249,
-						"width": 882.8784027382791,
-						"height": 509.52704164296745,
->>>>>>> Stashed changes
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -51,11 +36,7 @@
 					}
 				},
 				{
-<<<<<<< Updated upstream
 					"type": "Sprite",
-=======
-					"type": "Trastienda",
->>>>>>> Stashed changes
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -63,25 +44,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-<<<<<<< Updated upstream
 					"uid": 3,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 491,
-						"y": 296,
+						"x": 1080,
+						"y": 232,
 						"width": 250,
 						"height": 250,
-=======
-					"uid": 11,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 242,
-						"y": -296,
-						"width": 478.8891729826433,
-						"height": 482.10319427782883,
->>>>>>> Stashed changes
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -93,8 +63,64 @@
 						"angle": 0,
 						"zElevation": 0
 					}
-<<<<<<< Updated upstream
-=======
+				},
+				{
+					"type": "BandasNegras",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 5,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 419,
+						"y": 249,
+						"width": 882.8784027382791,
+						"height": 509.52704164296745,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Trastienda",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 11,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 391,
+						"y": 770,
+						"width": 478.88917298264323,
+						"height": 482.1031942778288,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				},
 				{
 					"type": "Tienda",
@@ -107,18 +133,12 @@
 					},
 					"uid": 4,
 					"instanceVariables": {},
-					"behaviors": {
-						"DesplazarHasta": {
-							"properties": {
-								"enabled": true
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
-						"x": 425.4526669277957,
-						"y": 251,
-						"width": -864.5604848610377,
-						"height": 491.0334619323356,
+						"x": 396,
+						"y": 240,
+						"width": 480.2452747398521,
+						"height": 480.1177435264209,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -142,29 +162,11 @@
 					},
 					"uid": 9,
 					"instanceVariables": {},
-					"behaviors": {
-						"Bala": {
-							"properties": {
-								"speed": 100,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
-							}
-						},
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": true
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
-						"x": -294,
-						"y": 177,
-						"width": -97.4778700338745,
+						"x": 510.23390017242065,
+						"y": 325.3193145430565,
+						"width": 98.89222591456931,
 						"height": 183.41754249530288,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -189,29 +191,11 @@
 					},
 					"uid": 8,
 					"instanceVariables": {},
-					"behaviors": {
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": true
-							}
-						},
-						"Bala": {
-							"properties": {
-								"speed": 100,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
-						"x": -189,
-						"y": 283,
-						"width": -107.30125962386346,
+						"x": 435.1051830279669,
+						"y": 328.928661578738,
+						"width": 108.6717059296411,
 						"height": 177.04648741168802,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -221,7 +205,7 @@
 							1,
 							1
 						],
-						"angle": 6.266253287020181,
+						"angle": 0,
 						"zElevation": 2
 					}
 				},
@@ -238,10 +222,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 819,
-						"y": 246,
-						"width": -116.5263574638565,
-						"height": 125.24654529651922,
+						"x": 191,
+						"y": 271,
+						"width": 117.6231257542971,
+						"height": 110.47640418947906,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -265,30 +249,12 @@
 					},
 					"uid": 6,
 					"instanceVariables": {},
-					"behaviors": {
-						"Bala": {
-							"properties": {
-								"speed": 100,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": false,
-								"step": false,
-								"enabled": true
-							}
-						},
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": true
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
-						"x": -81,
-						"y": 397,
-						"width": -116.81571624958306,
-						"height": 185.8935594854785,
+						"x": 339,
+						"y": 312,
+						"width": 106.3321167985577,
+						"height": 185.89355948547848,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -297,7 +263,7 @@
 							1,
 							1
 						],
-						"angle": 6.283014454627003,
+						"angle": 0,
 						"zElevation": 2
 					}
 				},
@@ -312,19 +278,12 @@
 					},
 					"uid": 10,
 					"instanceVariables": {},
-					"behaviors": {
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": true
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
-						"x": 663,
-						"y": 572,
-						"width": 183.16676442723093,
-						"height": 114.9269299441419,
+						"x": 790,
+						"y": 111,
+						"width": 242.88373141429588,
+						"height": 158.0014635085822,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -336,7 +295,6 @@
 						"angle": 0,
 						"zElevation": 3
 					}
->>>>>>> Stashed changes
 				}
 			],
 			"sid": 956527118073327,

@@ -1,7 +1,7 @@
 {
-	"name": "Bocadillo",
+	"name": "Sprite",
 	"plugin-id": "Sprite",
-	"sid": 541116284668614,
+	"sid": 655264058382737,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,32 +11,20 @@
 			{
 				"frames": [
 					{
-						"width": 1028,
-						"height": 678,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8866110,
-						"collisionPoly": {
-							"points": [
-								0.02529182879377432,
-								0.06489675516224189,
-								0.9299610894941635,
-								0.06489675516224189,
-								0.9727626459143969,
-								0.9410029498525073,
-								0.02529182879377432,
-								0.8289085545722714
-							]
-						},
+						"imageSpriteId": 7620130,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 294861632039615,
+				"sid": 627134154564619,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
