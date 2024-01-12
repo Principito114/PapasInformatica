@@ -17,8 +17,6 @@
 	"uniqueId": "bfwmqius5gm",
 	"objectTypes": {
 		"items": [
-			"cliente",
-			"Sprite",
 			"Tienda",
 			"BandasNegras",
 			"Cliente2",
