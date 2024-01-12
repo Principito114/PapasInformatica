@@ -270,6 +270,35 @@
 					}
 				},
 				{
+					"type": "Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 37,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 368,
+						"y": 179,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "BocadilloObjetos",
 					"properties": {
 						"initially-visible": false,
@@ -607,8 +636,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1102,
-						"y": 337.54,
+						"x": 1126,
+						"y": 310,
 						"width": 354.6037314142959,
 						"height": 176.62146350858217,
 						"originX": 0.5,
@@ -772,8 +801,8 @@
 						}
 					},
 					"world": {
-						"x": 946,
-						"y": 271,
+						"x": 968,
+						"y": 250,
 						"width": 309.61000000000007,
 						"height": 146.4,
 						"originX": 0,
